@@ -21,6 +21,9 @@ build:
       - python setup.py build_ext --inplace
     post_build:
       - echo 'BUILD DONE'
+      - ls
+      - cd docs
+      - ls
 
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
