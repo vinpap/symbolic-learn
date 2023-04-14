@@ -22,7 +22,7 @@ build:
     post_build:
       - echo 'BUILD DONE'
       - ls
-      - cd docs
+      - cd sblearn
       - ls
 
 # Build documentation in the docs/ directory with Sphinx
