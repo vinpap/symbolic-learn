@@ -21,8 +21,8 @@ Symbolic regression is best used when you want to take a naive approach to solvi
 Example
 ---------------------------
 
-Here is how to instantiate and train a symbolic regression model
-.. codeblock::
+Here is how to instantiate and train a symbolic regression model::
+
     from sblearn.models import SymbolicRegressor
     model = SymbolicRegressor()
     model.fit(X_train, y_train)
