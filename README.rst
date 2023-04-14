@@ -28,3 +28,13 @@ Here is how to instantiate and train a symbolic regression model::
     model.fit(X_train, y_train)
 
 After training your model, you can use access the fitted function's formula and function tree through the model's attributes `formulas` and `trees`. `Read the doc <https://symbolic-learn.readthedocs.io/en/latest/>`_ for more information.
+
+
+Installation
+---------------------------
+
+In order to install the package, use this command::
+
+   pip install symbolic-learn
+
+*Note for Windows users*: Microsoft Visual C++ 2014 or higher is required!

@@ -76,5 +76,7 @@ In order to install the package, use this command::
 
    pip install symbolic-learn
 
+*Note for Windows users*: Microsoft Visual C++ 2014 or higher is required!
+
 
 
