@@ -20,8 +20,8 @@ from sklearn.exceptions import NotFittedError
 from sklearn.metrics import r2_score
 from sklearn.utils.validation import check_array, check_is_fitted, check_X_y
 
-import sblearn.compute
-import sblearn.trees
+import sblearn.compute as compute
+import sblearn.trees as trees
 
 
 class SymbolicRegressor(BaseEstimator, RegressorMixin):

@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools", "Cython", "numpy"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -11,6 +11,15 @@ authors = [
 description = "A sklearn-compatible package that implements a symbolic regression model"
 readme = "README.rst"
 requires-python = ">=3.7"
+dependencies = [
+    'Cython',
+    'joblib',
+    'numpy',
+    'pandas',
+    'scikit_learn',
+    'setuptools',
+    'sympy'
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",

@@ -1,15 +1,15 @@
 Welcome to symbolic-learn's repository!
-=======
+========================================
 
 symbolic-learn is a sklearn-compatible package that implements a symbolic regression model.
 
 
 What is symbolic regression?
-----------------------------
+------------------------------
 
 Symbolic regression is a type of regression model that combines mathematical blocks to find the function that best fits the data. Here each function is represented as a binary tree like this one:
 
-.. image:: docs/_static/genetic_program_tree.png
+.. image:: https://github.com/vinpap/symbolic-learn/blob/master/docs/_static/genetic_program_tree.png
    :alt: Function tree representation : image not found
    :align: center
 
@@ -19,7 +19,7 @@ As this model is based on `scikit-learn's <http://scikit-learn.org>`_ base estim
 Symbolic regression is best used when you want to take a naive approach to solving a regression problem. Unlike most existing models, it does not come with an **a priori** specification of a model. Therefore it is a good idea to use it when you want to find out and understand the mathematical structures in your data. 
 
 Example
----------------------------
+-----------------------------
 
 Here is how to instantiate and train a symbolic regression model::
 
