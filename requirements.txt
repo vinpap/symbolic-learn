@@ -1,7 +1,0 @@
-Cython
-joblib
-numpy
-pandas
-scikit_learn
-setuptools
-sympy
