@@ -16,6 +16,7 @@ build:
     # golang: "1.19"
   jobs:
     pre_install:
+      - pip install Cython
       - python setup.py build_ext --inplace
     post_build:
       - echo 'BUILD DONE'
