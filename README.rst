@@ -1,4 +1,4 @@
-Welcome to symbolic-learn's documentation!
+Welcome to symbolic-learn's repository!
 =======
 
 symbolic-learn is a sklearn-compatible package that implements a symbolic regression model.
@@ -27,4 +27,4 @@ Here is how to instantiate and train a symbolic regression model
     model = SymbolicRegressor()
     model.fit(X_train, y_train)
 
-After training your model, you can use access the fitted function's formula and function tree through the model's attributes `formulas` and `trees`. `Read the doc <http://example.com>`_ for more information.
+After training your model, you can use access the fitted function's formula and function tree through the model's attributes `formulas` and `trees`. `Read the doc <https://symbolic-learn.readthedocs.io/en/latest/>`_ for more information.
