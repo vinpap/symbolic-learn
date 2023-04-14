@@ -9,7 +9,7 @@ What is symbolic regression?
 
 Symbolic regression is a type of regression model that combines mathematical blocks to find the function that best fits the data. Here each function is represented as a binary tree like this one:
 
-.. image:: https://raw.githubusercontent.com/vinpap/symbolic-learn/master/docs/_static/genetic_program_tree.png
+.. image:: https://raw.githubusercontent.com/vinpap/symbolic-learn/master/docs/_static/genetic_program_tree.svg
    :alt: Function tree representation : image not found
    :align: center
 
