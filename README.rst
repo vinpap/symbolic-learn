@@ -11,6 +11,7 @@ Symbolic regression is a type of regression model that combines mathematical blo
 
 .. image:: docs/_static/genetic_program_tree.png
    :alt: Function tree representation : image not found
+   :align: center
 
 The model initially generates a random population of such functions. It then uses genetic programming techniques on it to find out the function that best fits our dataset.
 As this model is based on `scikit-learn's <http://scikit-learn.org>`_ base estimator, it can be used the same way you would use any sklearn model. Thus, you can use it in pipelines or apply fine-tuning techniques such as GridSearchCV on it.
