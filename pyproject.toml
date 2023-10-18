@@ -3,8 +3,8 @@ requires = ["setuptools", "Cython", "numpy"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "symbolic-learn"
-version = "0.1.2"
+name = "sblearn"
+version = "0.1.4"
 authors = [
   { name="Vincent Papelard", email="papelardvincent@gmail.com" },
 ]
