@@ -4,7 +4,9 @@ import numpy
 
 
 setup(
-    ext_modules = [Extension('sblearn.compute', ['sblearn/compute.c']), 
+    name="sblearn",
+    version="0.1.3",
+    ext_modules=[Extension('sblearn.compute', ['sblearn/compute.c']), 
                    Extension('sblearn.trees', ['sblearn/trees.c'])]
                             ,
     install_requires=['Cython', 
