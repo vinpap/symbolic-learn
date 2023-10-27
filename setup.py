@@ -1,14 +1,15 @@
-from setuptools import setup, Extension
+from setuptools import setup, Extension, find_packages
 from Cython.Build import cythonize
 import numpy
 
 
 setup(
-    name="sblearn",
+    name="symbolic-learn",
     version="0.1.4",
     ext_modules=[Extension('sblearn.compute', ['sblearn/compute.c']), 
                    Extension('sblearn.trees', ['sblearn/trees.c'])]
                             ,
+    packages=find_packages(),
     install_requires=['Cython', 
                       'joblib', 
                       'numpy', 
